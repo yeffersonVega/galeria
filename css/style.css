@@ -1,0 +1,470 @@
+/************************ESTILOS PRINCIPAL******************************/
+	@font-face {
+		font-family:"DancingScript";
+		src: url(../font/DancingScript.otf);
+	}
+
+	body{
+		font-family:DancingScript;
+		background:#02010a;
+	}
+	
+	img{
+		width:80%;
+		box-shadow:2px 2px 2px #02010a;
+	}
+	
+	ul{
+		list-style:none;
+		margin:0 auto
+		-webkit-margin-before: 0px;
+		-webkit-margin-after: 0px;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end:0px;
+		-webkit-padding-start: 0px;
+	}
+	
+	li{
+		list-style:none;
+	}
+	
+	#cabeza{
+		width:100%;
+		height:110px;
+		background:#5b7989;
+		border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		-o-border-radius:10px;
+	}
+	
+	#cabeza a:link{
+		color:#fff;
+	}
+	#cabeza a:visited{
+		color:#fff;
+	}
+	
+	.izquierda{
+		float:left;
+	}
+	
+	#titulo{
+		color:#fff;
+		text-shadow:2px 2px 2px #02010a;
+		width:30%;
+		float:left;
+	}
+	
+	#menu{
+		width:100%;
+		text-align:right;
+		position: relative;
+		bottom: 110px;
+		clear:both;
+	}
+	
+	#menu li{		
+		display: inline;
+		margin-right:10px;
+	}
+		
+	#imagenCentral{
+		background:#82c3a6;
+		
+	}
+	
+	#imagenCentral img{
+		width:70%;
+	}
+	
+	#imagenColumnas{
+		background:#d5c75f;
+		width:100%;
+		height:580px;
+	}
+		
+	.columna1{
+		width:30%;
+		padding:5%;
+		margin:5%;
+		text-align:center;
+		float:left;
+	}
+	
+	.columna2{
+		width:30%;
+		padding:5%;
+		margin:5%;
+		text-align:center;
+		float:left;
+	}	
+		
+	a:link{
+		color:#000;
+	}
+	
+	a:visited{
+		color:#000;
+	}
+	
+	.rotar:hover{		
+		box-shadow:2px 2px 2px #82c3a6;
+		border:2px solid;
+		transform:rotate(10deg);
+		-webkit-transform:rotate(10deg);
+		-moz-transform:rotate(10deg);
+		-o-transform:rotate(10deg);
+		transition-duration: 1s;
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		-o-transition-duration: 1s;		
+	}
+	
+	.traslado:hover{
+		box-shadow:2px 2px 2px #82c3a6;
+		border:2px solid;
+		transform: translate(20px, -5px);
+		-webkit-transform: translate(20px, -5px);
+		-moz-transform: translate(20px, -5px);
+		-0-transform: translate(20px, -5px);
+		transition-duration: 1s;
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		-o-transition-duration: 1s;	
+	}
+	
+	#pie{
+		height:120px;
+		clear:both;
+		background:#C6d5c5;
+		border-radius:10px;
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		-o-border-radius:10px;
+	}
+	
+	.contacto{
+		width:25%;
+		height:90%;
+		text-align:center;
+		float:left;
+	}
+	
+	.terminos{
+		width:25%;
+		text-align:center;
+		float:left;
+	}
+	
+	.redes{
+		width:25%;
+		height:90%;
+		text-align:center;
+		float:left;
+	}
+	
+	.redes img{
+		width:10% !important;
+	}
+	
+	.separados{
+		width:100%;
+	}
+	
+	.juntos{	
+		width:15%;	
+		float:left;
+		margin:5px;
+	}
+	
+	.derechos{
+		width:25%;
+		text-align:center;
+		float:left;
+	}
+	
+	.regular{
+		clear:both;
+	}
+	
+/************************ESTILOS PRINCIPAL******************************/
+
+/************************MEDIA QUERIES PRINCIPAL******************************/
+
+	@media screen and (max-width:1024px){
+		
+		body{
+			width:90%;
+			margin:0 auto;
+		}
+	
+	}
+	
+	@media (min-width:421px) and (max-width:720px){
+		
+		body{
+			width:90%;
+			margin:0 auto;
+		}
+		
+		.columna1{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+	
+		.columna2{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+
+		#imagenCentral{
+			width:100%;
+			text-align:center;
+		}		
+		
+		.contacto{
+			width:90%;
+			height:90%;
+			text-align:center;
+		}
+		
+		.terminos{
+			width:90%;
+			text-align:center;
+		}
+		
+		.redes{
+			width:90%;
+			height:90%;
+			text-align:center;
+		}
+		
+		.derechos{
+			width:90%;
+			text-align:center;
+		}
+		
+		#pie{
+			height:400px;
+		}
+	
+	}
+	
+	@media(max-width:420px){
+		
+		body{
+			width:90%;
+			margin:0 auto;
+		}
+		
+		.columna1{
+			width:100%;
+		}
+		
+		.columna2{
+			width:100%;
+		}
+		
+			.contacto{
+			width:90%;
+			height:90%;
+			text-align:center;
+		}
+		
+		.terminos{
+			width:90%;
+			text-align:center;
+		}
+		
+		.redes{
+			width:90%;
+			height:90%;
+			text-align:center;
+		}
+		
+		.derechos{
+			width:90%;
+			text-align:center;
+		}
+		
+		#pie{
+			height:400px;
+		}
+	
+	}
+	
+/************************MEDIA QUERIES PRINCIPAL******************************/
+
+/************************ESTILOS PAISAJES******************************/
+
+	#contenidoPaisajes{
+		background:#d5c75f;
+		width:100%;
+		height:580px;
+	}
+	
+	.imagenColumnas2{
+		width:100%;
+		height:240px;
+		margin:0 auto;
+
+	}
+	
+	.columna2-1{
+		width:25%;
+		padding:2%;
+		text-align:center;
+		float:left;
+	}
+
+	.columna2-2{
+		width:25%;
+		padding:2%;
+		text-align:center;
+		float:left;
+	}
+
+	.columna2-3{
+		width:25%;
+		padding:2%;
+		text-align:center;
+		float:left;
+	}
+
+	.columna2-4{
+		width:25%;
+		padding:2%;
+		text-align:center;
+		float:left;
+	}
+
+	.columna2-5{
+		width:25%;
+		padding:2%;
+		text-align:center;
+		float:left;
+	}
+
+	.columna2-6{
+		width:25%;
+		padding:2%;
+		text-align:center;
+		float:left;
+	}
+	
+	.filtro1{
+		filter: blur(10px);
+		-webkit-filter: blur(10px);
+		-moz-filter: blur(10px);
+		-o-filter: blur(10px);
+	}
+		
+	.filtro2{
+		filter: grayscale(10px);
+		-webkit-filter:grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-o-filter: grayscale(100%);
+	}
+	
+	.filtro3{
+		filter: sepia(90%);
+		-webkit-filter: sepia(90%);
+		-moz-filter: sepia(90%);
+		-o-filter: sepia(90%);
+	}
+/************************ESTILOS PAISAJES******************************/
+
+/************************MEDIA QUERIES PAISAJES******************************/
+	
+	@media (min-width:421px) and (max-width:720px){
+		
+		#contenidoPaisajes{
+			height:1650px;
+		}
+	
+		.columna2-1{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+	
+		.columna2-2{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}	
+		
+		.columna2-3{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+		.columna2-4{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+		.columna2-5{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+		.columna2-6{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+	}
+	
+	@media(max-width:420px){
+		
+		#contenidoPaisajes{
+			height:1650px;
+		}
+		
+		.columna2-1{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+	
+		.columna2-2{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}	
+		
+		.columna2-3{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+		.columna2-4{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+		.columna2-5{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+		
+		.columna2-6{
+			width:90%;
+			padding:5%;
+			margin:0 auto;
+		}
+	
+	}
+	
+/************************MEDIA QUERIES PAISAJES******************************/
